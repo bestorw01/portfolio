@@ -1,0 +1,45 @@
+/* * {
+    border: 1px solid red !important;
+} */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #3f423f;
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    overflow: hidden;
+}
+
+/* General Page */
+.box {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: #2e93e6;
+}
+h1, h2,, h3 {
+    font-weight: bold;
+}
+/* Header Section */
+.social_media_icon a {
+    margin: 10px;
+    font-weight: bold;
+}
+.profile_image img {
+    min-width: 150px;
+    width: 15%;
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-bottom: 5   px;
+}
+.profile_image h1 { 
+    font-size: 2.5em;
+}
